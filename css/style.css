@@ -1,0 +1,59 @@
+:root{
+
+}
+
+
+
+body {
+    background-color: white;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    padding: 30px 10px;
+    display: flex;
+    
+}
+
+#main {
+    background-color: cyan;
+    border-radius: 1%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#title {
+    color:red;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#img-div {
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#image {
+    border: 2px solid orange;
+}
+
+#image-caption {
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 1px solid yellow;
+}
+
+#tribute-info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: justify;
+    border: 2px solid greenyellow;
+}
+
+#tribute-link{
+    text-align: center;
+    border: 1px solid red;
+}
+
