@@ -1,47 +1,72 @@
 :root{
+    --titulo: #333333;
+    --titulo-2: #757575;
+    --fondo-pagina: #ffffff;
+    --fondo-tarjeta: #eeeeee;
+    --texto: #dfdfdf;
 
 }
 
-
+/*-- --*/
 
 body {
-    background-color: white;
+    background-color:var(--fondo-pagina);
     font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-    padding: 30px 10px;
-    display: flex;
-    
+    padding: 25px 10px;
 }
 
 #main {
-    background-color: cyan;
-    border-radius: 1%;
-    padding: 10px 10px 10px 10px;
+    background-color:var(--fondo-tarjeta);
+    border-radius: 5px;
+    /* padding: 10px 10px 10px 10px; */
     display: flex;
     flex-flow: column wrap;
+    flex: 0 0 auto;
 }
 
+
 #title {
-    color:red;
-    border: 2px solid black;
+    color: var(--titulo);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
+#main > p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.95rem;
+}
+
 #img-div {
+    background-color: var(--fondo-pagina);
+    margin: 0 20px;
     border: 3px solid blue;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column wrap; */
 }
 
 #image {
     border: 2px solid orange;
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #image-caption {
-    display: flex;
-    justify-content: center;
-    color: red;
-    border: 1px solid yellow;
+    padding-top: 10px;
+    font-size: .9rem;
+    max-width: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    color: var(--titulo-2)
 }
 
 #tribute-info{
@@ -50,10 +75,42 @@ body {
     justify-content: center;
     text-align: justify;
     border: 2px solid greenyellow;
+    padding: 1px 5%;
+}
+
+#tribute-info > h3 {
+    color: var(--titulo);
+    text-align: center;
+    border: thin solid black;
+    margin: 45px auto;
+    /* line-height: 10px; */
+}
+
+#tribute-info > ul > li {
+    line-height: 25px;
+    margin: 16px 0;
+    font-size: .95rem;
+}
+
+blockquote {
+    text-align: left;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+cite {
+    padding-top: 20px;
 }
 
 #tribute-link{
-    text-align: center;
-    border: 1px solid red;
+    color: var(--titulo);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
 }
 
+#tribute-link > a {
+    color: var(--titulo-2);
+}
