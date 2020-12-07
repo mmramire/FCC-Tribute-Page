@@ -4,10 +4,8 @@
     --fondo-pagina: #ffffff;
     --fondo-tarjeta: #eeeeee;
     --texto: #dfdfdf;
-
+    font-size: 10px;
 }
-
-/*-- --*/
 
 body {
     background-color:var(--fondo-pagina);
@@ -18,7 +16,6 @@ body {
 #main {
     background-color:var(--fondo-tarjeta);
     border-radius: 5px;
-    /* padding: 10px 10px 10px 10px; */
     display: flex;
     flex-flow: column wrap;
     flex: 0 0 auto;
@@ -45,14 +42,9 @@ body {
 #img-div {
     background-color: var(--fondo-pagina);
     margin: 0 20px;
-    border: 3px solid blue;
-    /* display: flex;
-    align-items: center;
-    flex-flow: column wrap; */
 }
 
 #image {
-    border: 2px solid orange;
     display: block;
     max-width: 100%;
     margin-left: auto;
@@ -64,8 +56,6 @@ body {
     font-size: .9rem;
     max-width: 100%;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
     color: var(--titulo-2)
 }
 
@@ -74,16 +64,14 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     text-align: justify;
-    border: 2px solid greenyellow;
     padding: 1px 5%;
 }
 
 #tribute-info > h3 {
     color: var(--titulo);
     text-align: center;
-    border: thin solid black;
     margin: 45px auto;
-    /* line-height: 10px; */
+
 }
 
 #tribute-info > ul > li {
