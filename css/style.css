@@ -4,17 +4,18 @@
     --fondo-pagina: #ffffff;
     --fondo-tarjeta: #eeeeee;
     --texto: #dfdfdf;
-    font-size: 10px;
+    
 }
 
 body {
     background-color:var(--fondo-pagina);
-    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 30px;
     padding: 25px 10px;
 }
 
 #main {
     background-color:var(--fondo-tarjeta);
+    font-family: 'Source Sans Pro', sans-serif;
     border-radius: 5px;
     display: flex;
     flex-flow: column wrap;
@@ -24,8 +25,9 @@ body {
 
 #title {
     color: var(--titulo);
+    font-family: 'Merienda', cursive;
     font-weight: bolder;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     padding-top: 40px;
     margin: auto;
     display: flex;
@@ -36,7 +38,7 @@ body {
 #main > p {
     text-align: center;
     font-weight: lighter;
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
 }
 
 #img-div {
@@ -53,7 +55,7 @@ body {
 
 #image-caption {
     padding-top: 10px;
-    font-size: .9rem;
+    /* font-size: .9rem; */
     max-width: 100%;
     text-align: center;
     color: var(--titulo-2)
@@ -74,7 +76,7 @@ body {
 
 }
 
-#tribute-info > ul > li {
+#tribute-info > p {
     line-height: 25px;
     margin: 16px 0;
     font-size: .95rem;
@@ -92,11 +94,12 @@ cite {
 
 #tribute-link{
     color: var(--titulo);
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: left;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+
 }
 
 #tribute-link > a {
