@@ -113,7 +113,7 @@ cite {
   padding-top: 20px;
 }
 
-#tribute-link {
+footer {
   color: var(--titulo);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
@@ -122,6 +122,6 @@ cite {
   padding-top: 10px;
 }
 
-#tribute-link > a {
+#tribute-link {
   color: var(--titulo-2);
 }
